@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Section from "./section";
-import Card from "./card";
+import ProjectsList from "./projectsList";
 
 export const BodyStyled = styled.div``;
 
@@ -11,7 +11,7 @@ function Body() {
       <Section title="Work"></Section>
       <Section title="Tech" isWhite={true}></Section>
       <Section title="Projects">
-        <Card />
+        <ProjectsList />
       </Section>
       <Section title="Certified" isWhite={true}></Section>
     </BodyStyled>

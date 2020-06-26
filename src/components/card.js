@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Wrapper from "./wrapper";
-import image from "../images/react-shortly.jpg";
 
 export const CardStyled = styled.div`
   width: 100%;
@@ -12,12 +10,12 @@ export const CardStyled = styled.div`
   .image {
     border-radius: 5px 5px 0 0;
     height: 210px;
-    background-image: url(${image});
+    background-image: url(${props => props.image});
     background-size: cover;
   }
 
   .content-card {
-    padding: 1em 0;
+    padding: 1em 2em;
   }
 
   .header-card {
@@ -39,6 +37,10 @@ export const CardStyled = styled.div`
 
   .icon-card {
     font-size: 1.2em;
+    a {
+      color: var(--gray-very-darl);
+      text-decoration: none;
+    }
   }
 
   .body-card {
@@ -48,31 +50,30 @@ export const CardStyled = styled.div`
   }
 `;
 
-function Card() {
+function Card({ project }) {
+  const { title, owner, description, image, github, website } = project;
   return (
-    <CardStyled>
-      <a href="https://www.google.com">
+    <CardStyled image={image}>
+      <a href={website}>
         <div className="image"></div>
       </a>
 
-      <Wrapper>
-        <div className="content-card">
-          <div className="header-card">
-            <div className="title-card">
-              <h3>Titulo de card</h3>
-              <span>descripción</span>
-            </div>
-            <div className="icon-card">
-              <a href="https://github.com/kevinjpuscan">
-                <i className="fab fa-github"></i>
-              </a>
-            </div>
+      <div className="content-card">
+        <div className="header-card">
+          <div className="title-card">
+            <h3>{title}</h3>
+            <span>{owner}</span>
           </div>
-          <div className="body-card">
-            <p>HOllasd asdasd asd asd asd </p>
+          <div className="icon-card">
+            <a href={github}>
+              <i className="fab fa-github"></i>
+            </a>
           </div>
         </div>
-      </Wrapper>
+        <div className="body-card">
+          <p>{description}</p>
+        </div>
+      </div>
     </CardStyled>
   );
 }
