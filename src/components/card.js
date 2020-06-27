@@ -33,6 +33,10 @@ export const CardStyled = styled.div`
     justify-content: space-between;
   }
   .title-card {
+    a {
+      color: var(--gray-very-dark);
+      text-decoration: none;
+    }
     h3 {
       margin: 0;
       font-size: 1.2em;
@@ -78,7 +82,9 @@ function Card({ element }) {
       <div className="content-card">
         <div className="header-card">
           <div className="title-card">
-            <h3>{title}</h3>
+            <a href={website}>
+              <h3>{title}</h3>
+            </a>
             <span>{owner}</span>
           </div>
           <div className="icon-card">

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Section from "./section";
 import Projects from "./Projects";
 import Works from "./Works";
 import StackTech from "./stackTech";
@@ -13,7 +12,6 @@ function Body() {
       <Works />
       <StackTech />
       <Projects />
-      <Section title="Certified" isWhite={true}></Section>
     </BodyStyled>
   );
 }

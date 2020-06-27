@@ -13,12 +13,17 @@ export const MainStyled = styled.div`
   .cover {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.75);
+
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0)),
+      rgba(0, 0, 0, 0.65);
+
     box-sizing: border-box;
     padding: 2em 0;
   }
 
   .nav {
+    position: absolute;
+    top: 1em;
     color: white;
     font-weight: 900;
     font-size: 2em;
@@ -65,9 +70,9 @@ function Main() {
           <div className="description-main">
             <h1>I am Kevin</h1>
             <p>
-              My name is Kevin Puscán Ortiz, i am sofware enginer. I have
-              approximately three years of experience in  mining technology, I
-              am passionate about learning  new things constantly.
+              My name is Kevin Puscán Ortiz.I am sofware enginer.I have
+              approximately three years of experience in mining technology, I am
+              passionate about learning new things constantly.
             </p>
             <SocialLinks />
           </div>
