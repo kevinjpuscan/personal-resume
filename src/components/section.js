@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Wrapper from "./wrapper";
 
 export const SectionStyled = styled.div`
-  padding: 2em 0;
+  padding: 3em 0;
   background-color: ${props =>
     props.isWhite ? "white" : "var(--gray-background)"};
 

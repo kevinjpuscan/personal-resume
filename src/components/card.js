@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const CardStyled = styled.div`
   width: 100%;
@@ -11,7 +11,16 @@ export const CardStyled = styled.div`
     border-radius: 5px 5px 0 0;
     height: 210px;
     background-image: url(${props => props.image});
-    background-size: cover;
+    ${props =>
+      props.imageSize
+        ? css`
+            background-size: ${props => props.imageSize};
+            background-repeat: no-repeat;
+            background-position: center;
+          `
+        : css`
+            background-size: cover;
+          `}
   }
 
   .content-card {
@@ -50,10 +59,18 @@ export const CardStyled = styled.div`
   }
 `;
 
-function Card({ project }) {
-  const { title, owner, description, image, github, website } = project;
+function Card({ element }) {
+  const {
+    title,
+    owner,
+    description,
+    image,
+    github,
+    website,
+    imageSize
+  } = element;
   return (
-    <CardStyled image={image}>
+    <CardStyled image={image} imageSize={imageSize}>
       <a href={website}>
         <div className="image"></div>
       </a>
@@ -65,9 +82,11 @@ function Card({ project }) {
             <span>{owner}</span>
           </div>
           <div className="icon-card">
-            <a href={github}>
-              <i className="fab fa-github"></i>
-            </a>
+            {github && (
+              <a href={github}>
+                <i className="fab fa-github"></i>
+              </a>
+            )}
           </div>
         </div>
         <div className="body-card">

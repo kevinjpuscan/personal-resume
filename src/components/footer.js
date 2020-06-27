@@ -4,7 +4,7 @@ import SocialLinks from "./socialLinks";
 import Wrapper from "./wrapper";
 
 export const FooterStyled = styled.div`
-  padding: 2.5em 0;
+  padding: 2.5em 0 1.5em 0;
   background-color: var(--gray-very-dark);
   text-align: center;
   color: white;

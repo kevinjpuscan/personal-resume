@@ -27,10 +27,10 @@ function SocialLinks({ center }) {
       <a href="https://github.com/kevinjpuscan">
         <i className="fab fa-github"></i>
       </a>
-      <a href="https://github.com/kevinjpuscan">
+      <a href="https://www.linkedin.com/in/kevinpuscan/">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="https://github.com/kevinjpuscan">
+      <a href="https://twitter.com/KevinPuscan">
         <i class="fab fa-twitter-square"></i>
       </a>
     </SocialLinksStyled>

@@ -29,10 +29,25 @@ export const MainStyled = styled.div`
   }
 
   .description-main {
+    position: absolute;
+    bottom: 5em;
     color: white;
-    margin-top: 20em;
     h1 {
       margin: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position-x: 40em;
+
+    .description-main {
+      width: 30%;
+      h1 {
+        font-size: 4em;
+        margin: 0;
+      }
     }
   }
 `;
