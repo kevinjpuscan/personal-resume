@@ -55,7 +55,7 @@ const projects = [
     imageSize: "50%"
   },
   {
-    title: "Simple Gauge",
+    title: "Video Call with webrtc",
     owner: "Contributor",
     description:
       "Contribution to the video call project with webrtc and reactjs by Diego Gurgel.",

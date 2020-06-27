@@ -18,7 +18,7 @@ function Footer() {
     <FooterStyled>
       <Wrapper>
         <SocialLinks center={true} />
-        <p className="mail">keivnjpuscan@gmail.com</p>
+        <p className="mail">kevinjpuscan@gmail.com</p>
       </Wrapper>
     </FooterStyled>
   );

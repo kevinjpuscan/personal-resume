@@ -6,7 +6,7 @@ import CardList from "./cardList";
 const jobs = [
   {
     title: "Application Analyst",
-    owner: "Mine Sense for Miners (Set 2018 - Actually)",
+    owner: "Mine Sense for Miners (Set 2018 - Present)",
     description:
       "Provide operational support to the mining fleet management system at MinaJusta - Marcobre.",
     image: images.ms4m,
@@ -17,7 +17,7 @@ const jobs = [
   {
     title: "Developer Jr.",
     owner: "Mine Sense for Miners (Nov 2017 - Set 2018)",
-    description: "Desarrollar modules de sistemas en tecnología minera.",
+    description: "Develop systems modules in mining technology.",
     image: images.ms4m,
     github: null,
     website: "https://www.ms4m.com",
@@ -26,7 +26,7 @@ const jobs = [
   {
     title: "Web Developer",
     owner: "Okidoki (Mar 2017 - Nov 2017)",
-    description: "Desarrollador web de un marketplace para okidoki",
+    description: "Web developer of a marketplace for okidoki",
     image: images.okidoki,
     github: null,
     website: "https://www.okidoki.pe",
@@ -37,7 +37,7 @@ const jobs = [
 function Works() {
   return (
     <Fragment>
-      <Section title="Work">
+      <Section title="Experience">
         <CardList list={jobs} />
       </Section>
     </Fragment>
