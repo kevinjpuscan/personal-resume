@@ -35,7 +35,7 @@ export const MainStyled = styled.div`
 
   .description-main {
     position: absolute;
-    bottom: 5em;
+    bottom: 2em;
     color: white;
     h1 {
       margin: 0;
@@ -49,6 +49,7 @@ export const MainStyled = styled.div`
 
     .description-main {
       width: 30%;
+      bottom: 5em;
       h1 {
         font-size: 4em;
         margin: 0;
@@ -70,7 +71,7 @@ function Main() {
           <div className="description-main">
             <h1>I am Kevin</h1>
             <p>
-              My name is Kevin Puscán Ortiz.I am sofware enginer.I have
+              My name is Kevin Puscán Ortiz. I am sofware enginner. I have
               approximately three years of experience in mining technology, I am
               passionate about learning new things constantly.
             </p>
