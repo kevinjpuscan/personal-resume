@@ -12,6 +12,11 @@ export const CardListStyled = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3em;
   }
+
+  @media (min-width: 700px) and (max-width: 1199px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+  }
 `;
 
 function CardList({ list }) {

@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import styled from "styled-components";
 import images from "../images/projects";
 import Section from "./section";
 import CardList from "./cardList";
@@ -65,18 +64,6 @@ const projects = [
     imageSize: false
   }
 ];
-
-export const ProjectsListStyled = styled.div`
-  width: 100%;
-  display: grid;
-  gap: 2em;
-  margin: 2em 0;
-
-  @media (min-width: 1200px) {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3em;
-  }
-`;
 
 function Projects() {
   return (

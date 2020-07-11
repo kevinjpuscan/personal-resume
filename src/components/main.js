@@ -56,6 +56,35 @@ export const MainStyled = styled.div`
       }
     }
   }
+
+  @media (min-width: 500px) and (max-width: 899px) {
+    background-repeat: no-repeat;
+    background-position-x: 10em;
+
+    .description-main {
+      width: 70%;
+      bottom: 5em;
+      h1 {
+        font-size: 4em;
+        margin: 0;
+      }
+    }
+  }
+
+  @media (min-width: 900px) and (max-width: 1199px) {
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: 20em;
+
+    .description-main {
+      width: 50%;
+      bottom: 5em;
+      h1 {
+        font-size: 4em;
+        margin: 0;
+      }
+    }
+  }
 `;
 
 function Main() {

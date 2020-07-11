@@ -24,6 +24,11 @@ export const ListStack = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 3em;
   }
+
+  @media (min-width: 700px) and (max-width: 1199px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+  }
 `;
 
 export const CardImage = styled.div`

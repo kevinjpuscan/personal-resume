@@ -8,6 +8,10 @@ export const WrapperStyled = styled.div`
   @media (min-width: 1200px) {
     padding: 0 160px;
   }
+
+  @media (min-width: 800px) and (max-width: 1199px) {
+    padding: 0 80px;
+  }
 `;
 
 function Wrapper({ children }) {
