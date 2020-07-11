@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7b48422fe0d5f7097f232588a063f89",
+    "revision": "30c98f64e0b7954b494f02fd57577a9f",
     "url": "/personal-resume/index.html"
   },
   {
-    "revision": "e6c2d9b2dbf3661b73d7",
+    "revision": "7ce381e10fab46e9e90a",
     "url": "/personal-resume/static/css/main.2d2d838b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-resume/static/js/2.6f36379d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e6c2d9b2dbf3661b73d7",
-    "url": "/personal-resume/static/js/main.739a7259.chunk.js"
+    "revision": "7ce381e10fab46e9e90a",
+    "url": "/personal-resume/static/js/main.3c527890.chunk.js"
   },
   {
     "revision": "30572a31ef7743eb0003",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-resume/static/media/job-list.1b35d4fb.png"
   },
   {
-    "revision": "9da6821c3a70e940ad121f8596c1789b",
-    "url": "/personal-resume/static/media/kevin.9da6821c.jpg"
+    "revision": "513b32be035f5e483d24745b6a186249",
+    "url": "/personal-resume/static/media/kevin.513b32be.jpg"
   },
   {
     "revision": "f5b5d6f6c5f5de66213564aeff0d7151",
