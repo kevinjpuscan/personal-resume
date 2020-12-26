@@ -38,6 +38,7 @@ export const MainStyled = styled.div`
     bottom: 2em;
     color: white;
     h1 {
+      font-size:4.5rem;
       margin: 0;
     }
   }
@@ -51,7 +52,7 @@ export const MainStyled = styled.div`
       width: 30%;
       bottom: 5em;
       h1 {
-        font-size: 4em;
+        font-size: 5rem;
         margin: 0;
       }
     }
@@ -65,7 +66,7 @@ export const MainStyled = styled.div`
       width: 70%;
       bottom: 5em;
       h1 {
-        font-size: 4em;
+        font-size: 5rem;
         margin: 0;
       }
     }
@@ -80,7 +81,7 @@ export const MainStyled = styled.div`
       width: 50%;
       bottom: 5em;
       h1 {
-        font-size: 4em;
+        font-size: 3.5rem;
         margin: 0;
       }
     }

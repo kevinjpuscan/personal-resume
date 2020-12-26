@@ -8,7 +8,8 @@ export const SectionStyled = styled.div`
     props.isWhite ? "white" : "var(--gray-background)"};
 
   .title {
-    font-size: 1.5em;
+    font-size: 2em;
+    color:gray;
   }
 `;
 

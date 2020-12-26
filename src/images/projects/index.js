@@ -4,6 +4,7 @@ import joblist from "./job-list.png";
 import markersmap from "./markers-map.png";
 import reactshortly from "./react-shortly.png";
 import webrtc from "./webrtc.png";
+import todoApp from './todo-app.png';
 
 export default {
   covid,
@@ -11,5 +12,6 @@ export default {
   joblist,
   markersmap,
   reactshortly,
-  webrtc
+  webrtc,
+  todoApp
 };

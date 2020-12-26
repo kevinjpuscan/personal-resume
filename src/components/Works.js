@@ -5,8 +5,18 @@ import CardList from "./cardList";
 
 const jobs = [
   {
+    title: "Remote Support Engineer",
+    owner: "Hexagon Mining (Set 2020 - Present)",
+    description:
+      "Provide operational support to the mining fleet management system and anti-fatigue system.",
+    image: images.hexagon,
+    github: null,
+    website: "https://hexagonmining.com/",
+    imageSize: "80%"
+  },
+  {
     title: "Application Analyst",
-    owner: "Mine Sense for Miners (Set 2018 - Present)",
+    owner: "Mine Sense for Miners (Set 2018 - Set 2020)",
     description:
       "Provide operational support to the mining fleet management system at MinaJusta - Marcobre.",
     image: images.ms4m,

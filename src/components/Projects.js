@@ -5,6 +5,16 @@ import CardList from "./cardList";
 
 const projects = [
   {
+    title: "Todo App",
+    owner: "Owner",
+    description:
+      'Project with ReactJs and redux, challenge from FrontendMentor',
+    image: images.todoApp,
+    github: "https://github.com/kevinjpuscan/todo-app",
+    website: "https://kevinjpuscan.github.io/todo-app/",
+    imageSize: false
+  },
+  {
     title: "Markers in Map",
     owner: "Owner",
     description:
