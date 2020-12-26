@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-resume/static/css/main.2d2d838b.chunk.css",
-    "main.js": "/personal-resume/static/js/main.3c527890.chunk.js",
-    "main.js.map": "/personal-resume/static/js/main.3c527890.chunk.js.map",
+    "main.css": "/personal-resume/static/css/main.9257f764.chunk.css",
+    "main.js": "/personal-resume/static/js/main.e840af32.chunk.js",
+    "main.js.map": "/personal-resume/static/js/main.e840af32.chunk.js.map",
     "runtime-main.js": "/personal-resume/static/js/runtime-main.42f9558b.js",
     "runtime-main.js.map": "/personal-resume/static/js/runtime-main.42f9558b.js.map",
-    "static/js/2.6f36379d.chunk.js": "/personal-resume/static/js/2.6f36379d.chunk.js",
-    "static/js/2.6f36379d.chunk.js.map": "/personal-resume/static/js/2.6f36379d.chunk.js.map",
+    "static/js/2.679f3b77.chunk.js": "/personal-resume/static/js/2.679f3b77.chunk.js",
+    "static/js/2.679f3b77.chunk.js.map": "/personal-resume/static/js/2.679f3b77.chunk.js.map",
     "index.html": "/personal-resume/index.html",
-    "precache-manifest.868995d84026e8dc24814ab3d5628c29.js": "/personal-resume/precache-manifest.868995d84026e8dc24814ab3d5628c29.js",
+    "precache-manifest.8d0ca72c70ab06b6c81baca5ec4b51fa.js": "/personal-resume/precache-manifest.8d0ca72c70ab06b6c81baca5ec4b51fa.js",
     "service-worker.js": "/personal-resume/service-worker.js",
-    "static/css/main.2d2d838b.chunk.css.map": "/personal-resume/static/css/main.2d2d838b.chunk.css.map",
-    "static/js/2.6f36379d.chunk.js.LICENSE.txt": "/personal-resume/static/js/2.6f36379d.chunk.js.LICENSE.txt",
+    "static/css/main.9257f764.chunk.css.map": "/personal-resume/static/css/main.9257f764.chunk.css.map",
+    "static/js/2.679f3b77.chunk.js.LICENSE.txt": "/personal-resume/static/js/2.679f3b77.chunk.js.LICENSE.txt",
     "static/media/covid.png": "/personal-resume/static/media/covid.09cc9c61.png",
     "static/media/gauge.png": "/personal-resume/static/media/gauge.6205c31e.png",
     "static/media/git.png": "/personal-resume/static/media/git.4713b290.png",
     "static/media/github.png": "/personal-resume/static/media/github.c28b7341.png",
+    "static/media/hexagon-min.png": "/personal-resume/static/media/hexagon-min.83971926.png",
     "static/media/javascript.png": "/personal-resume/static/media/javascript.0e4fdce8.png",
     "static/media/job-list.png": "/personal-resume/static/media/job-list.1b35d4fb.png",
     "static/media/kevin.jpg": "/personal-resume/static/media/kevin.513b32be.jpg",
@@ -31,14 +32,15 @@
     "static/media/redux.png": "/personal-resume/static/media/redux.bc4587cd.png",
     "static/media/sass.png": "/personal-resume/static/media/sass.6d5b6422.png",
     "static/media/styledcomponents.png": "/personal-resume/static/media/styledcomponents.94e9f4fd.png",
+    "static/media/todo-app.png": "/personal-resume/static/media/todo-app.4aade020.png",
     "static/media/ubuntu.png": "/personal-resume/static/media/ubuntu.e3d24015.png",
     "static/media/vuejs.png": "/personal-resume/static/media/vuejs.430af113.png",
     "static/media/webrtc.png": "/personal-resume/static/media/webrtc.a48fad97.png"
   },
   "entrypoints": [
     "static/js/runtime-main.42f9558b.js",
-    "static/js/2.6f36379d.chunk.js",
-    "static/css/main.2d2d838b.chunk.css",
-    "static/js/main.3c527890.chunk.js"
+    "static/js/2.679f3b77.chunk.js",
+    "static/css/main.9257f764.chunk.css",
+    "static/js/main.e840af32.chunk.js"
   ]
 }
